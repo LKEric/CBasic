@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+    int x;
+    printf("Enter a number: ");
+    scanf("%d",&x);
+    (x%2 == 0) ? printf("Divisible") : printf("Not divisible");
+    getch();
+    return 0;
+}
